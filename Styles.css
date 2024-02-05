@@ -16,6 +16,7 @@ body{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    margin: 10px;
 }
 
 .section-title{
@@ -85,7 +86,13 @@ nav{
 
  }
 .banner-content{
-  max-width: 585px;;
+  max-width: 585px;
+  
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
  /* About Section */
 .about{
@@ -94,4 +101,22 @@ border-radius: 10px;
 background-color: #FFF8F3;
 margin: 130px 0;
 
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    align-items: center;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: bold;
 }
